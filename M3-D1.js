@@ -133,9 +133,10 @@ function checkArrValue(arr) {
     return false;
   }
 }
-//console.log(checkArrValue([2,3]));
-//console.log(checkArrValue([2,2]));
-//console.log(checkArrValue([2,2,4]));
+// console.log(checkArrValue([2,3]));
+// console.log(checkArrValue([1,2]));
+// console.log(checkArrValue([2,2]));
+// console.log(checkArrValue([2,2,4]));
 
 
 /* 10. Create a function to test if an array of lenght 2 DOES NOT contain 1 or 3. 
@@ -342,5 +343,5 @@ function returnAcronym(str) {
 	return acronym;
 }
 
-console.log(returnAcronym("Bayerische Motoren Werke"));
-console.log(returnAcronym("British Broadcasting Corporation"));
+// console.log(returnAcronym("Bayerische Motoren Werke"));
+// console.log(returnAcronym("British Broadcasting Corporation"));
