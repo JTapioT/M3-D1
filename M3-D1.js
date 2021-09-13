@@ -276,7 +276,7 @@ function strModifier(str) {
 		return str.toUpperCase();
 	}
 
-	// Sub-string of first three and uppercase the letters:
+	// Sub-string of first three and lowercase the letters:
 	let firstThreeToLowerCase = str.substring(0, 3).toLowerCase();
 	// Slice from third character until the end of string characters, uppercase:
 	let stringEnd = str.slice(3).toUpperCase();
