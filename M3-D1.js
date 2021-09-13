@@ -133,10 +133,10 @@ function checkArrValue(arr) {
     return false;
   }
 }
-
 //console.log(checkArrValue([2,3]));
 //console.log(checkArrValue([2,2]));
 //console.log(checkArrValue([2,2,4]));
+
 
 /* 10. Create a function to test if an array of lenght 2 DOES NOT contain 1 or 3. 
     Return `true` if it doesn't, `false` if it does. */
@@ -153,10 +153,10 @@ function arrayNotContainingCertainValue(arr) {
     return false;
   }
 }
-
 //console.log(arrayNotContainingCertainValue([2,3]));
 //console.log(arrayNotContainingCertainValue([2,2]));
 //console.log(arrayNotContainingCertainValue([2,2,4]));
+
 
 
 /* 11. Create a function to find the longest string from a given array of strings. 
@@ -250,6 +250,7 @@ function largestEvenOfArray(arr) {
 //console.log(largestEvenOfArray([2,3,7,65,3,44,101,102]));
 
 
+
 /* 15. Create a function to check from two given integers (passed as parameters) if one is positive and the other is negative. 
     Return `true` if that's the case, return `false` if it's not. */
 
@@ -265,6 +266,7 @@ function largestEvenOfArray(arr) {
 	// console.log(checkInteger(-200, 100));
 
 
+
 /* 16. Create a function to create and return a new string where the first 3 characters and in lower case and the others are in upper case. 
     If the string's length is less than 3, convert the whole string into uppercase. Pass the original string as a parameter. */
 
@@ -275,14 +277,15 @@ function strModifier(str) {
 	}
 
 	// Sub-string of first three and uppercase the letters:
-	let firstThreeToUpperCase = str.substring(0,3).toUpperCase();
-	// Slice from third character until the end of string characters:
-	let stringEnd = str.slice(3);
+	let firstThreeToLowerCase = str.substring(0, 3).toLowerCase();
+	// Slice from third character until the end of string characters, uppercase:
+	let stringEnd = str.slice(3).toUpperCase();
 
-	return firstThreeToUpperCase + stringEnd;
+
+	return firstThreeToLowerCase + stringEnd;
 }
-//console.log(strModifier("cowboy"));
-//console.log(strModifier("co"));
+// console.log(strModifier("cowboy"));
+// console.log(strModifier("co"));
 
 
 /* 17. Create a function to calculate the sum of two integers (passed as parameters). 
